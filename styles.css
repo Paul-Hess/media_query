@@ -1,13 +1,14 @@
 
 
 .wrap div{
+	font-size: 60px;
 	color: gray;
 	width: 22.5%;
 	float: left;
 	text-align: center;
-	height: 140px;
+	height: 100%;
 	margin: 1.125%;
-	padding-top: 8%;
+	padding-top: 0%;
 	border: 0px solid white;
 	border-radius: 28%;
 }
@@ -34,10 +35,12 @@
 		media queries
  ================================================================================= */
 
- @media screen and ( max-width: 480px ) {
+ @media only screen and ( max-width: 768px ) {
 	.wrap div {
 		width: 48%;
+		font-size: 40px;
 		margin: 1%;
+		padding-top: 1%;	
 		border: 0px solid white;
 		border-radius: 28%;
 
