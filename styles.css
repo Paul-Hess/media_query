@@ -1,0 +1,46 @@
+
+
+.wrap div{
+	color: gray;
+	width: 22.5%;
+	float: left;
+	text-align: center;
+	height: 140px;
+	margin: 1.125%;
+	padding-top: 8%;
+	border: 0px solid white;
+	border-radius: 28%;
+}
+
+.one {
+	background-color: lightblue;
+}
+
+.wrap .two {
+	background-color: blue;
+	color: white;
+}
+
+.three {
+	background-color: aqua;
+}
+
+.wrap .four {
+	background-color: darkblue;
+	color: white;
+}
+
+/* =================================================================================
+		media queries
+ ================================================================================= */
+
+ @media screen and ( max-width: 480px ) {
+	.wrap div {
+		width: 48%;
+		margin: 1%;
+		border: 0px solid white;
+		border-radius: 28%;
+
+	}
+ }
+
